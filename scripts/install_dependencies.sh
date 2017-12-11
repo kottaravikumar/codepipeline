@@ -16,4 +16,4 @@ wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-
 sudo yum install -y jdk-8u141-linux-x64.rpm
 
 
-mkdir /tmp/app
+mkdir -p /tmp/app

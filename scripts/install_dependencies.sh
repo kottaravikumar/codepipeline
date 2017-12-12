@@ -1,4 +1,7 @@
-#!/bin/sh
+#!/bin/bash
+
+echo "Installing httpd"
+yum install -y httpd
 
 # Install codedeploy to Troubleshoot
 

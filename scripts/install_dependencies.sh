@@ -1,6 +1,7 @@
 #!/bin/bash
 
-mkdir -p /tmp/app
+mkdir -p /tmp/app/test
+cd /tmp/app/test
 yum update -y
 
 echo "Installing httpd"

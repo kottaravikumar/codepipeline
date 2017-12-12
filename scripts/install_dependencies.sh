@@ -2,6 +2,7 @@
 
 # Install codedeploy to Troubleshoot
 
+yum update -y
 wget https://aws-codedeploy-us-west-2.s3.amazonaws.com/latest/install
 chmod +x ./install
 sudo ./install auto

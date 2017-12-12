@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Entered into dependencies " >> /tmp/test.log
+echo "Entered into dependencies " > /tmp/test.log
 
 mkdir -p /tmp/app/test/
 echo "Created directory" >> /tmp/test.log

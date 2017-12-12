@@ -3,6 +3,8 @@ set -e
 
 proc_id=`ps aux | grep '[c]odepipeline' | awk '{print $2}'`
 
+echo "$proc_id"
+
 echo "$proc_id of codepipeline process"
 
 if [[ -z "$proc_id" ]]; then
